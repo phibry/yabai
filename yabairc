@@ -32,8 +32,8 @@ yabai -m config window_border_hidpi             off
 yabai -m config active_window_border_color      0xff8CABC8
 yabai -m config normal_window_border_color      0xff434c5e
 yabai -m config insert_feedback_color           0xffd75f5f
-yabai -m config active_window_opacity           1
-yabai -m config normal_window_opacity           1
+yabai -m config active_window_opacity           0.9
+yabai -m config normal_window_opacity           0.95
 yabai -m config split_ratio                     0.50
 yabai -m config window_topmost                  off
 yabai -m config window_shadow                   off
@@ -43,7 +43,7 @@ yabai -m config window_opacity_duration         0.0
 
 yabai -m config auto_balance                    off
 
-# yabai -m config external_bar                    main:12:0
+yabai -m config external_bar                    main:34:0
 
 # disable specific apps
 yabai -m rule --add app="^System Settings$" manage=off
