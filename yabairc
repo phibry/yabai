@@ -52,3 +52,5 @@ yabai -m rule --add label="App Store" app="^App Store$" manage=off
 yabai -m rule --add label="Software Update" title="Software Update" manage=off
 yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
 yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add label="Calendar" app="^Calendar$" manage=off
+yabai -m rule --add label="Karabiner-Elements" app="^Karabiner-Elements&" manage=off
